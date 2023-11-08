@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-      "./index.html", 
-      "./src/**/*.{vue,js,ts,jsx,tsx}"
-    ],
-    theme: {
-        extend: {},
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        'larsseit': ["Larsseit", "sans-serif"],
+      },
     },
-    plugins: [],
+  },
+  plugins: [],
 };

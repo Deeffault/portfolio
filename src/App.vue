@@ -1,30 +1,18 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
+<script setup></script>
 
 <template>
-    <div>
-        <a href="https://vitejs.dev" target="_blank">
-            <img src="/vite.svg" class="logo" alt="Vite logo" />
-        </a>
-        <a href="https://vuejs.org/" target="_blank">
-            <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-        </a>
+    <div
+        class="bg-gradient-to-bl from-[#454545] to-black h-screen flex flex-col justify-center items-center">
+        <h1
+            class="text-[#FFFFFF99] opacity-60 hover:opacity-100 text-9xl font-semibold font-larsseit mb-24 blur-sm
+            hover:blur-none hover:tracking-wide transition-all duration-500 ease-in-out">
+            Welcome
+        </h1>
+        <button
+            class="bg-gradient-to-r from-[#5A5959] to-[#A6A3A300] text-[#FFFFFF99] font-semibold py-2 px-4 rounded-full shadow-md shadow-[#262525] cursor-pointer
+            hover:tracking-wide hover:bg-[#454545] transition-all duration-300 ease-in-out"
+            onclick="">
+            Discover
+        </button>
     </div>
-    <HelloWorld msg="Vite + Vue" />
 </template>
-
-<style scoped>
-.logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-}
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-    filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
